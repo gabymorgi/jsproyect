@@ -1,0 +1,111 @@
+body{
+  background-color: #000;
+}
+.btn{
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+.UL, .UL-inactive{
+  border-top-left-radius : 100%;
+  border-bottom-right-radius: 50%;
+  background-color: #040;
+}
+.UL:hover, .UL-active{
+  background-color: #0F0;
+}
+.UL:active{
+  background-color: #0C0;
+} 
+.UR, .UR-inactive{
+  border-top-right-radius : 100%;
+  border-bottom-left-radius: 50%;
+  background-color: #C00;
+}
+.UR:hover, .UR-active{
+  background-color: #F88;
+}
+.UR:active{
+  background-color: #F44;
+}
+.DL, .DL-inactive{
+  border-bottom-left-radius : 100%;
+  border-top-right-radius: 50%;
+  background-color: #CC0;
+}
+.DL:hover, .DL-active{
+  background-color: #FF8;
+}
+.DL:active{
+  background-color: #FF4;
+}
+.DR, .DR-inactive{
+  border-bottom-right-radius : 100%;
+  border-top-left-radius: 50%;
+  background-color: #00C;
+}
+.DR:hover, .DR-active{
+  background-color: #88F;
+}
+.DR:active{
+  background-color: #44F;
+} 
+.tablero{
+  position: relative;
+  margin: 0px auto 0px auto;
+  width: 450px;
+  background-color: black;
+}
+.centro{
+  position: absolute;
+  background-color: #888;
+  border-radius: 50%;
+  width: 50%;
+  height: 50%;
+  top: 25%;
+  left: 25%;
+  border: 20px solid black;
+}
+.centro-block{
+  background-color: #444;
+}
+h3{
+  text-align: center;
+  color: white;
+}
+h1{
+  text-align: center;
+  color: black;
+}
+.start{
+  width: 40px;
+  height: 40px;
+  margin: auto;
+  border-radius: 50%;
+  background-color: #C00;
+  border: 5px solid #800;
+}
+.start:active{
+  background-color: #F44;
+  cursor: pointer;
+}
+.start:hover{
+  background-color: #FCC;
+  cursor: pointer;
+}
+.startPressed{
+  width: 40px;
+  height: 40px;
+  margin: auto;
+  border-radius: 50%;
+  background-color: #F88;
+  border: 5px solid #800;
+}
+.startPressed:active{
+  background-color: #FCC;
+  cursor: pointer;
+}
+.startPressed:hover{
+  background-color: #F44;
+  cursor: pointer;
+}
